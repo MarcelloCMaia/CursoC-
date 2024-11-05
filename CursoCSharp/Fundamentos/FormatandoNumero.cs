@@ -18,7 +18,7 @@ namespace CursoCSharp.Fundamentos
             Console.WriteLine(valor.ToString("#.##"));
 
             CultureInfo cultura = new CultureInfo("en-US");
-            Console.WriteLine(valor.ToString("C3", cultura));
+            Console.WriteLine(valor.ToString("C0", cultura));
 
             int inteiro = 256;
             Console.WriteLine(inteiro.ToString("D10"));
